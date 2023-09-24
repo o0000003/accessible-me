@@ -1,17 +1,26 @@
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: #F2EDD7;
   margin: 0;
   padding: 0;
+  color: #755239;
 }
 
+h1{
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
 .container {
@@ -22,6 +31,7 @@ h6 {
 
 img {
   width: 100%;
+  margin: 2rem;
 }
 
 .main-nav ul {
